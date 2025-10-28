@@ -46,7 +46,7 @@ do {
     in.nextLine();
     System.out.print("Apakah anda ingin mengulang? Ya/Tidak: ");
     ulang = in.nextLine();
-    } while (!ulang.equalsIgnoreCase("Tidak"));
+    } while (ulang=="Tidak"));
 
 
     }
@@ -67,4 +67,5 @@ do {
         Scanner in = new Scanner(System.in);
         return 3.14*r*r;
     }
+
 }
